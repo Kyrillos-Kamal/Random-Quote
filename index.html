@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="Style/bootstrap.min.css" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="Style/all.min.css" />
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spirax&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap"
+      rel="stylesheet"
+    />
+    <!-- my style -->
+    <link rel="stylesheet" href="Style/style.css" />
+    <!-- icon -->
+    <link rel="shortcut icon" href="Images/RQ.png" type="image/x-icon" />
+    <title>Random Quotes</title>
+  </head>
+  <body>
+    <div class="container"></div>
+    <div class="w-75 m-auto text-center py-5">
+        <h1 class="mb-5 text-danger">Quote of the Day</h1>
+        <h2 class="mb-5">Press the button below to recieve a random quote!</h2>
+        <button id="getQuote" onclick="quoteShow()" class="btn btn-primary py-3 px-5 mb-5 d-block m-auto">New Quote</button>
+        <q id="quote" class="fs-2 mb-5"></q>
+        <p id="author" class="fs-6"></p>
+    </div>
+    <!-- bootstrap -->
+    <script src="Javascript/bootstrap.bundle.min.js"></script>
+    <!-- myScript -->
+    <script src="Javascript/myScript.js"></script>
+  </body>
+</html>

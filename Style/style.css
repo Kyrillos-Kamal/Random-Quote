@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Spirax', cursive;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 2.6rem;
+    font-weight: 700;
+    
+}
+h2 {
+    font-family: 'Alfa Slab One', cursive;
+    
+}
+.btn {
+    border-color:transparent !important;
+    transition: 0.3s ease-in-out;
+    outline-color: transparent !important;
+    box-shadow: none !important;
+}
+.btn:hover {
+    background-color:#00e676;
+    /* transform: scale(1.5); */
+    border-color:transparent !important;
+    outline-color: transparent !important;
+}
